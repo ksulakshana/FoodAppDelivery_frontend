@@ -1,0 +1,277 @@
+.paymentPageContainer {
+  width: auto;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.addressNav {
+  width: 90%;
+  height: 3rem;
+  border-radius: 0px 0px 12px 12px;
+  border: 1px;
+  background: #fafafa;
+  border: 1px solid #0000001a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.menu li {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  border-radius: 2rem;
+  width: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.menu li:first-child {
+  background: #fc8a06;
+  border-radius: 2rem;
+  width: 6rem;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0.5rem;
+}
+
+.loggedInUser {
+  width: auto;
+  height: auto;
+  border-radius: 2rem;
+  background: #03081f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.loggedInUser span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+}
+
+.midContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  height: 70vh;
+}
+
+.makePayment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.selectPaymentMethod {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  margin: 0;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #03081f;
+  border-radius: 3rem;
+  width: 80%;
+  padding: 0 1rem;
+}
+
+.walletbalance {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.wallet p {
+  /* width: 100%; */
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: center;
+  color: #000000;
+}
+
+.walletbalance span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: #83858a;
+}
+
+.walletIcon {
+  position: relative;
+  top: 0.2rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.orangeArrowRight {
+  float: right;
+}
+
+.breakline {
+  border: 1px solid #00000033;
+  display: block;
+  width: 84%;
+}
+
+.otherPaymentModes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.MaestroKard,
+.paypal,
+.stripe,
+.addDebitCard {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #03081f;
+  border-radius: 3rem;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+}
+
+.MaestroKard p,
+.paypal p,
+.stripe p {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #000000;
+}
+
+.MaestroKard input,
+.paypal input,
+.stripe input {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.addDebitCard {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  /* text-align: center; */
+  color: #000000;
+}
+
+.addDebitCard span {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.pay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  border: 1px solid #000000;
+}
+
+.totalPay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 90%;
+  padding: 1rem;
+  gap: 10rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #83858a;
+}
+
+.totalPay span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #000000;
+}
+
+.pay button {
+  background: #fc8a06;
+  border: transparent;
+  padding: 1rem;
+  border-radius: 6rem;
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: center;
+  color: #ffffff;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(217, 217, 217, 0.6);
+}

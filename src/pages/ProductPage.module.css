@@ -1,0 +1,217 @@
+.productPageContainer {
+  width: auto;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.addressNav {
+  width: 90%;
+  height: 3rem;
+  border-radius: 0px 0px 12px 12px;
+  border: 1px;
+  background: #fafafa;
+  border: 1px solid #0000001a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.menu li {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  border-radius: 2rem;
+  width: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.pageOpened {
+  background: #fc8a06;
+  border-radius: 2rem;
+  width: 6rem;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0.5rem;
+  color: #ffffff;
+}
+
+.loggedInUser {
+  width: auto;
+  height: auto;
+  border-radius: 2rem;
+  background: #03081f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.loggedInUser span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+}
+
+.restaurantDetails {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  background-image: url(/src/assets/restaurant_bg_img.png);
+  justify-content: space-between;
+  border-radius: 0.75rem;
+}
+
+.leftFlexSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.leftFlexSection p {
+  margin: 0;
+}
+
+.flexFirstpara {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.deliveryTimeInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.rightFlexSection {
+  padding: 2rem;
+}
+
+.rightFlexSection img {
+  width: auto;
+  height: 15rem;
+}
+
+.restaurantName {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.minOrder,
+.deliveryTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 7rem;
+  border: 0.2rem solid #ffffff;
+  padding: 0 1rem;
+}
+
+.minOrder span,
+.deliveryTime span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 66px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.opentill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #fc8a06;
+  border-radius: 0px 0.7rem 0.7rem 0px;
+  position: relative;
+  right: 2rem;
+  width: 15rem;
+  padding: 0.5rem;
+  top: 3.5rem;
+}
+
+.opentill span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+}
+
+.offersAndItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.similarRestaurants {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.customerReview {
+  display: flex;
+  flex-direction: column;
+  background: #d9d9d9;
+  width: 100%;
+  height: 100%;
+}
+
+.restaurantLocationMap {
+  height: 20rem;
+  width: 90%;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(217, 217, 217, 0.6);
+}

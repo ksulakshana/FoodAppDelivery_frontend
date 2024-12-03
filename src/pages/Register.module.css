@@ -1,0 +1,119 @@
+.RegisterContainer {
+  /* height: 100vh; */
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBody {
+  /* height: 70%; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.leftContainer {
+  /* width: 55%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto; */
+  width: 55%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.rightContainer {
+  height: 50rem;
+  padding: 2rem;
+}
+
+.rightImage {
+  display: block;
+  /* width: 25rem; */
+  width: auto;
+  height: 50rem;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.logoImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.innerDiv {
+  display: block;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcomePara1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  /* line-height: 36px; */
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0c1421;
+}
+
+.welcomePara2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  /* line-height: 32px; */
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-bottom: 1rem;
+  color: #313957;
+}
+
+.registerLink {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #122b31;
+  padding-top: 2rem;
+}
+
+.registerLink a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  text-decoration: none;
+  color: #fc8a06;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(217, 217, 217, 0.6);
+  display: flex;
+  flex-direction: column;
+}

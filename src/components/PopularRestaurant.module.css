@@ -1,0 +1,32 @@
+.popularHeading {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  float: left;
+}
+
+.popularRests {
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.popularRests a {
+  width: 80%;
+}
+
+.popularRests img {
+  width: 10rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .popularRests {
+    width: 100vw;
+    overflow-x: scroll;
+  }
+}

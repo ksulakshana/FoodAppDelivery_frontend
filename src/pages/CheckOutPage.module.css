@@ -1,0 +1,214 @@
+.checkOutContainer {
+  width: auto;
+  height: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.addressNav {
+  width: 90%;
+  height: 3rem;
+  border-radius: 0px 0px 12px 12px;
+  border: 1px;
+  background: #fafafa;
+  border: 1px solid #0000001a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.menu li {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  border-radius: 2rem;
+  width: auto;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.menu li:first-child {
+  background: #fc8a06;
+  border-radius: 2rem;
+  width: 6rem;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0.5rem;
+}
+
+.loggedInUser {
+  width: auto;
+  height: auto;
+  border-radius: 2rem;
+  background: #03081f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.8rem;
+}
+
+.loggedInUser span {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+}
+
+.orderDetailsHeading {
+  float: left;
+  width: 90%;
+  padding-top: 2rem;
+}
+
+.cartTotal {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.carts {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 1px solid #03081f;
+  height: auto;
+  padding: 1rem;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40rem;
+  float: left;
+}
+
+.breakline {
+  border: 1px solid #00000033;
+  display: block;
+}
+
+.total {
+  border-radius: 10rem;
+  border: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+
+  width: 100%;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #03081f;
+  border-radius: 3rem;
+}
+
+.locationIcon {
+  position: relative;
+  top: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+.deliveryAddress {
+  width: 80%;
+}
+
+.qtysubtotal p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: left;
+  color: #83858a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.qtysubtotal p span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: right;
+}
+
+.bold {
+  color: #000000;
+}
+
+.choosePayment {
+  padding: 12px 10px 12px 10px;
+  gap: 10px;
+  border-radius: 20rem;
+  background: #fc8a06;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  border: #fc8a06;
+}
+
+.similarRestaurants {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 2rem 1rem;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(217, 217, 217, 0.6);
+}

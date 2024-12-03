@@ -1,0 +1,395 @@
+.HomePageContainer {
+  width: auto;
+  height: 100%;
+  background: #ffffff;
+  /* padding: 0 2rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.addressNav {
+  width: 90%;
+  height: 3rem;
+  border-radius: 0px 0px 12px 12px;
+  border: 1px;
+  background: #fafafa;
+  border: 1px solid #0000001a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBar {
+  background: #fbfbfb;
+  width: 90%;
+  height: 25rem;
+  border: 1px solid #00000033;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.searchInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  padding-left: 2rem;
+  width: 100%;
+}
+
+.orangebar {
+  position: relative;
+  float: right;
+  height: 22rem;
+  width: 55%;
+  border-radius: 282.5px 0px 12px 0px;
+  background: #fc8a06;
+  top: 3rem;
+}
+
+.pizza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20rem;
+  position: relative;
+  bottom: 0;
+  background-repeat: no-repeat;
+  z-index: 99999;
+  /* top: 5rem;
+  left: 10rem; */
+  top: 2rem;
+  right: 20rem;
+}
+
+.noodles {
+  border-radius: 12px 12px 0px 0px;
+  height: 16rem;
+  display: block;
+  position: relative;
+  /* top: 6rem;
+  left: 0rem; */
+  bottom: 14rem;
+}
+
+.delivered1 img {
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 99999;
+  width: 15rem;
+  bottom: 34rem;
+  left: 6rem;
+}
+
+.delivered2 img {
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 99999;
+  width: 15rem;
+  bottom: 35rem;
+  left: 10rem;
+}
+
+.delivered3 img {
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 99999;
+  width: 15rem;
+  bottom: 37rem;
+  left: 8rem;
+}
+
+.searchPara1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #03081f;
+}
+
+.searchPara2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0;
+}
+
+.searchPara2 span {
+  color: #fc8a06;
+}
+
+.searchPara3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #03081f;
+}
+
+.zcodeInput {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 2rem;
+  padding-left: 1rem;
+  background: #ffffff;
+  color: #00000099;
+  border: 1px solid #00000066;
+}
+
+.searchButton {
+  position: relative;
+  right: 6rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  background: #fc8a06;
+  border-radius: 2rem;
+  padding: 0.4rem 2rem;
+  border: transparent;
+}
+
+.dealsAndCategory {
+  width: 90%;
+  padding: 1rem;
+}
+
+.popularRestaurant {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.OrderingAppImage {
+  width: 90%;
+}
+
+.OrderingAppImage img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.partnerOrRide {
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: auto auto;
+  width: 90%;
+}
+
+.partnerOrRide img {
+  width: 100%;
+}
+
+.knowMore {
+  width: 90%;
+  /* height: 25rem; */
+  border-radius: 12px;
+  opacity: 0.3px;
+  background: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.statistics {
+  width: 90%;
+  height: 100%;
+  border-radius: 1rem;
+  background: #fc8a06;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(217, 217, 217, 0.6);
+}
+/*********************************/
+.mobileAddressNav,
+.mobileNavbar,
+.mobileSearchBar {
+  display: none;
+}
+/**********************************/
+
+@media screen and (max-width: 1200px) {
+  .HomePageContainer {
+    padding: 0;
+  }
+
+  .addressNav,
+  .navbar,
+  .searchBar {
+    display: none;
+  }
+
+  .mobileAddressNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .mobilelogo {
+    /* width: 15px;
+    height: 15px; */
+    object-fit: contain;
+    float: left;
+  }
+
+  .mobilemenu {
+    float: right;
+  }
+
+  .mobileNavbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+  }
+
+  .userName {
+    background: #fc8a06;
+    width: 50%;
+  }
+
+  .userName,
+  .mobileCart {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4rem;
+  }
+
+  .mobileCart {
+    background: #028643;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .mobileCart img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .mobileSearchBar {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* height: 25rem; */
+    height: 15rem;
+    border-radius: 1rem;
+    background: #03081f;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .mobileSearchBar p {
+    padding: 0;
+    margin: 0;
+  }
+  .mobpara1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 66px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+  }
+
+  .mobpara2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+  }
+
+  .mobpara2 span {
+    color: #fc8a06;
+  }
+
+  .mobPara3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 66px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+  }
+
+  .mobilesubemailSection {
+    width: 15rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mzcodeInput {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    background: #ffffff;
+    color: #00000099;
+    border: 1px solid #00000066;
+  }
+
+  .msearchButton {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #fc8a06;
+    border-radius: 10rem;
+    padding: 0.4rem;
+    position: relative;
+    right: 2rem;
+  }
+}

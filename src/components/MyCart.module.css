@@ -1,0 +1,269 @@
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0000001c;
+}
+
+.basketHeading {
+  width: 367px;
+  height: 117px;
+  border-radius: 8px 8px 0px 0px;
+  background: #028643;
+  border: 1px solid #0000001c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.cartItems {
+  border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+}
+
+.foodInfo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.quantity {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background: #fc8a06;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  padding: 0.3rem;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: #028643;
+}
+
+.itemName {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #03081f;
+}
+
+.extra {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+
+.breakline {
+  border: 1px solid #00000033;
+  display: block;
+}
+
+.breakdownBill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.subtotal,
+.discount,
+.deliveryfee {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #03081f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtotal span,
+.discount span,
+.deliveryfee span {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #212121;
+}
+
+.totalBill {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fc8a06cc;
+  border: 1px solid #0000001c;
+  border-radius: 8px;
+  padding: 1rem;
+  gap: 3rem;
+  margin: auto;
+}
+
+.totalBill span {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+
+.chooseFree {
+  border-radius: 7rem;
+  background: #f6f6f6;
+  border: 1px solid #cfcfcf;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 5rem;
+  margin: auto;
+}
+
+.couponCode {
+  border-radius: 7rem;
+  background: #f6f6f6;
+  border: 1px solid #cfcfcf;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 4rem;
+  margin: auto;
+}
+
+.deliveryInfo {
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: auto auto auto;
+  padding: 1rem;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background: #eeeeee;
+  border: 1px solid #00000033;
+  padding: 1rem;
+}
+
+.pickup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eeeeee;
+  padding: 1rem;
+  opacity: 0.5;
+}
+
+.delheading {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: #000000;
+}
+
+.timings {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #000000;
+}
+
+.barrier {
+  width: 0rem;
+  height: 10rem;
+  border: 1px solid #00000033;
+  position: relative;
+  left: 0.5rem;
+}
+
+.below200Checkoutbg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ffb1b1;
+  border-radius: 1rem;
+  border: 1px solid #0000001c;
+  padding: 1rem 7rem 1rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+  margin: auto;
+  gap: 3rem;
+}
+
+.Checkoutbg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: #028643;
+  border-radius: 1rem;
+  border: 1px solid #0000001c;
+  padding: 1rem 7rem 1rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+  margin: auto;
+  gap: 3rem;
+}

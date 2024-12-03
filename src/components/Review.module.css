@@ -1,0 +1,26 @@
+.reviewHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 66px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 2rem 5rem;
+}
+
+.reviews {
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: auto auto auto;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.reviews img {
+  width: 100%;
+}

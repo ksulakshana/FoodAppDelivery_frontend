@@ -1,0 +1,128 @@
+.knowmoreHeading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.knowmoreHeading p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  color: #000000;
+}
+
+.knowmoreHeading ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.knowmoreHeading ul li {
+  list-style: none;
+}
+
+.knowmoreHeading ul li:first-child {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  border-radius: 2rem;
+  border: 0.1rem solid #fc8a06;
+  padding: 0.5rem 1rem;
+}
+
+.whitebackgroundContent {
+  width: 90%;
+  /* height: 25rem; */
+  border-radius: 1rem;
+  background: #ffffff;
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftflexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.leftflexColumn li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #03081f;
+}
+
+.rightflexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1rem;
+  align-items: center;
+}
+
+.gridboxes {
+  display: grid;
+  column-gap: 0.5rem;
+  grid-template-columns: auto auto auto;
+}
+
+.box {
+  background: #d9d9d9;
+  width: 11rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1rem 0;
+  gap: 0.5rem;
+}
+
+.box p {
+  margin: 0;
+  text-align: center;
+}
+
+.boxImage {
+  width: 5rem;
+  height: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxFirstLine {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #03081f;
+}
+
+.boxSecondLine {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #000000;
+}

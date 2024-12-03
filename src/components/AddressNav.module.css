@@ -1,0 +1,65 @@
+.promoContent {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.promoCode {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fc8a06;
+}
+
+.star {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+}
+.currentAddress {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  color: #03081f;
+}
+
+.changeloc {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fc8a06;
+}
+
+.locIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.mycartdiv,
+.mycartdiv img {
+  height: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  /* .desktopDisplay {
+    display: none;
+  } */
+}
