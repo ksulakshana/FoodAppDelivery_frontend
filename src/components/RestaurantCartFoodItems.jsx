@@ -37,7 +37,7 @@ function RestaurantFoodItems() {
               alt="firstOrderDiscount"
             />
             <img
-              src="https://res.cloudinary.com/dkc3wexlc/image/upload/v1733160848/veganDiscount_bmhyd0.png"
+              src="https://res.cloudinary.com/dkc3wexlc/image/upload/v1733197327/veganDiscount_apapet.png"
               alt="veganDiscount"
             />
             <img

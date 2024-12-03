@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./ProfilePage.module.css";
 import AddressNav from "../components/AddressNav";
 import logo1 from "../assets/logo1.png";
@@ -6,8 +6,29 @@ import userIcon from "../assets/userIcon.png";
 import Footer from "../components/Footer";
 import profileHeading from "../assets/profileHeading.png";
 import userDP from "../assets/userDP.png";
+import { getUserData } from "../services/auth";
 
 function ProfilePage() {
+  const [name, setName] = useState();
+  const [country, setCountry] = useState();
+  const [email, setEmail] = useState();
+  const [gender, setGender] = useState();
+
+  useEffect(() => {
+    getUserData().then((res) => {
+      if (!res.data) {
+        setUser("");
+      }
+      if (res.data.userdata == null) {
+        setUser("");
+      }
+      setName(res.data.userdata.name);
+      setCountry(res.data.userdata.country);
+      setEmail(res.data.userdata.email);
+      setGender(res.data.userdata.gender);
+    });
+  }, []);
+
   return (
     <div className={styles.profileContainer}>
       <div className={styles.addressNav}>
@@ -34,18 +55,18 @@ function ProfilePage() {
         <div className={styles.profileSecondRow}>
           <div>
             <img src={userDP} />
-            <p>Mike Ross</p>
+            <p>{name}</p>
           </div>
           <button>Edit</button>
         </div>
         <div className={styles.profileData}>
           <div className={styles.profileFields}>
             <label for="name">Full Name</label>
-            <input type="text" placeholder="Mike Ross" />
+            <input type="text" placeholder={name} />
           </div>
           <div className={styles.profileFields}>
             <label for="name">Email Address</label>
-            <input type="text" placeholder="mikeross@gmail.com" />
+            <input type="text" placeholder={email} />
           </div>
           <div className={styles.profileFields}>
             <label for="name">Gender</label>

@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import login_SignUp from "../assets/login_SignUp.png";
 import { Link } from "react-router-dom";
 import logo1 from "../assets/logo1.png";
 import styles from "./Navbar.module.css";
+import userIcon from "../assets/userIcon.png";
+import { getUserData } from "../services/auth";
 
 function Navbar() {
+  const [user, setUser] = useState();
+
+  useEffect(() => {
+    getUserData().then((res) => {
+      if (!res.data) {
+        setUser("");
+      }
+      if (res.data.userdata == null) {
+        setUser("");
+      }
+      setUser(res.data.userdata.name);
+    });
+  }, []);
   return (
     <>
       <img src={logo1} alt="logo" />
@@ -15,13 +30,20 @@ function Navbar() {
         <li>Restaurants</li>
         <li>Track Order</li>
       </ul>
-      <Link to="/login">
-        <img
-          className={styles.loginbtn}
-          src={login_SignUp}
-          alt="login or sign up"
-        />
-      </Link>
+      {user == "" ? (
+        <Link to="/login">
+          <img
+            className={styles.loginbtn}
+            src={login_SignUp}
+            alt="login or sign up"
+          />
+        </Link>
+      ) : (
+        <Link className={styles.loggedInUser} to="/profile">
+          <img src={userIcon} alt="user Icon" />
+          <span>Hey {user}&nbsp;</span>
+        </Link>
+      )}
     </>
   );
 }

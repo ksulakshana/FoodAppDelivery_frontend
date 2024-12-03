@@ -36,6 +36,7 @@
   text-decoration: none;
   position: relative;
   right: 2rem;
+  cursor: pointer;
 }
 .loginFormContainer button {
   background: #fc8a06;
@@ -46,6 +47,7 @@
   justify-self: space-between;
   color: #ffffff;
   border: transparent;
+  cursor: pointer;
 }
 
 .errorMessage {

@@ -150,7 +150,7 @@
 
 .zcodeInput {
   width: 15rem;
-  height: 2rem;
+  height: 0.2rem;
   border-radius: 2rem;
   padding-left: 1rem;
   background: #ffffff;
@@ -375,7 +375,7 @@
 
   .mzcodeInput {
     width: 12rem;
-    height: 2rem;
+    height: 0.2rem;
     border-radius: 2rem;
     padding-left: 1rem;
     background: #ffffff;
