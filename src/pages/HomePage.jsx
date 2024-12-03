@@ -10,9 +10,11 @@ import notification2 from "../assets/notification2.png";
 import notification1 from "../assets/notification1.png";
 import shoppingbasket from "../assets/shoppingbasket.png";
 import submitarrow from "../assets/submitarrow.png";
+import menu from "../assets/submitarrow.png";
+
 import Footer from "../components/Footer";
 import AddressNav from "../components/AddressNav";
-import menu from "../assets/menu.png";
+// import menu from "../assets/menu.png";
 import Navbar from "../components/Navbar";
 
 function HomePage() {
