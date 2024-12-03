@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styles from "./ProductPage.module.css";
 import logo1 from "../assets/logo1.png";
-import login_SignUp from "../assets/login_SignUp.png";
 import AddressNav from "../components/AddressNav";
 import userIcon from "../assets/userIcon.png";
 import min_order from "../assets/min_order.png";
 import delivery_time from "../assets/delivery_time.png";
-import Restaurant_food_img from "../assets/Restaurant_food_img.png";
 import Clock from "../assets/Clock.png";
 import RestaurantFoodItems from "../components/RestaurantFoodItems";
 import Location from "../components/Location";
@@ -14,7 +12,7 @@ import Review from "../components/Review";
 import PopularRestaurant from "../components/PopularRestaurant";
 import Footer from "../components/Footer";
 import { getUserData } from "../services/auth";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { fetchOneRestaurant } from "../services/restaurant";
 
@@ -60,10 +58,10 @@ function ProductPage() {
           <li className={styles.pageOpened}>Restaurants</li>
           <li>Track Order</li>
         </ul>
-        <div className={styles.loggedInUser}>
+        <Link className={styles.loggedInUser} to="/profile">
           <img src={userIcon} alt="user Icon" />
           <span>Hey {user}&nbsp;</span>
-        </div>
+        </Link>
       </div>
 
       <div className={styles.restaurantDetails}>

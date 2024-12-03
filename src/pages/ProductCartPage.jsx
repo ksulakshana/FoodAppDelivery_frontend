@@ -14,7 +14,7 @@ import Review from "../components/Review";
 import PopularRestaurant from "../components/PopularRestaurant";
 import Footer from "../components/Footer";
 import { getUserData } from "../services/auth";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { fetchOneRestaurant } from "../services/restaurant";
 
@@ -60,10 +60,10 @@ function ProductPage() {
           <li className={styles.pageOpened}>Restaurants</li>
           <li>Track Order</li>
         </ul>
-        <div className={styles.loggedInUser}>
+        <Link className={styles.loggedInUser} to="/profile">
           <img src={userIcon} alt="user Icon" />
           <span>Hey {user}&nbsp;</span>
-        </div>
+        </Link>
       </div>
 
       <div className={styles.restaurantDetails}>
