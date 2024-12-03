@@ -45,6 +45,7 @@
   border: transparent;
   position: relative;
   top: 1rem;
+  cursor: pointer;
 }
 
 .errorMessage {

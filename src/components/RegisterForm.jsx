@@ -57,18 +57,12 @@ function RegisterForm() {
     let isError = false;
 
     Object.keys(errorMessages).forEach((key) => {
-      console.log(key);
       if (!errorMessages[key].isValid) {
         isError = true;
         errorMessages[key].onError();
-        console.log(errorMessages[key]);
-        console.log(formData.phone.length);
       }
     });
-    console.log("out" + isError);
     if (!isError) {
-      console.log("in" + isError);
-
       const res = await register(formData);
 
       if (res.status === 201) {
@@ -148,7 +142,7 @@ function RegisterForm() {
           </p>
         ) : null}
 
-        <button className={styles.loginButton} type="submit" onClick={onSubmit}>
+        <button className={styles.loginButton} type="button" onClick={onSubmit}>
           Continue
         </button>
       </form>
